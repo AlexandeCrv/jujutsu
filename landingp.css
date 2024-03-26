@@ -1,0 +1,328 @@
+header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #202020;
+    height: 80px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.651);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    box-shadow: 2px 3px 8px #974dff ;
+}
+
+
+
+#ep1:hover{
+    color:rgb(132, 14, 201);
+        transition: 0.7s all; }
+
+#sinopse:hover{
+     color:rgb(132, 14, 201);
+     transition: 0.7s all;}
+
+#historia:hover{
+    color:rgb(132, 14, 201);
+    transition: 0.7s all;     };
+
+
+#voltar:hover{
+    color:rgb(132, 14, 201);
+    transition: 0.7s all;
+}
+
+#comentar:hover{
+
+    color:rgb(132, 14, 201);
+    transition: 0.7s all;
+}
+
+
+
+#voltar{
+    cursor: pointer;
+}
+
+#ep1{
+    padding: 27px;
+    cursor: pointer;
+}
+
+#sinopse{
+
+    cursor: pointer;
+}
+
+#historia{
+    padding: 27px;
+    cursor: pointer;
+    
+    
+}
+
+#comentar{
+    cursor: pointer;
+}
+
+
+
+#loguin1{
+    padding: 27px;
+    cursor: pointer;
+
+
+}
+
+#loguin{
+    padding: 10px;
+    background-color: black;
+    color: #974dff;
+    box-shadow: 2px 1px 4px;
+    cursor: pointer;
+    
+}
+
+body{
+    background-color: #0E0E0E;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+   margin-left: 100px;
+    width: 1100px;
+    height: 1130px;
+    background-color: #2b1942;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+}
+
+#jujutsu1{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+
+#jujutsu2{
+    height: 237px;
+    width: 237px; ;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#jujutsu3{
+    height: 237px;
+    width: 237px; ;
+    padding: 15px;
+    cursor: pointer;
+}
+    
+#jujutsu4{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#jujutsu5{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px; 
+    cursor: pointer;
+  
+}
+
+#jujutsu6{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+
+    cursor: pointer;
+    
+}
+
+#juju56{
+    
+   text-align: right;
+  
+   
+}
+
+
+#juju78{
+   
+   
+    
+    cursor: pointer;
+    text-align: right;
+   
+}
+
+#jujutsu7{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#jujutsu8{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#juju910{
+    display: flex;
+  
+}
+
+#jujutsu9{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#jujutsu10{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#jujutsu11{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#jujutsu12{
+    height: 237px;
+    width: 237px; ;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+footer{
+    margin-top: 30px;
+    background-color: #202020;
+    height: 200px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.651);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    box-shadow: 2px 3px 19px #974dff ;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+
+#parag3{
+
+    padding: 10px;
+}
+
+
+#inputf{
+
+  padding: 20px;
+  border-radius: 5px;
+  border: #974dff solid;
+  background-color: #0E0E0E;
+  color: rgba(255, 255, 255, 0.651);
+ 
+
+}
+
+
+   
+
+
+#title{
+    position: absolute; 
+    height: 500px;
+    width: 500px;
+  color:rgb(192, 138, 37);
+  text-align: center;
+  font-family:fantasy;
+  font-size: 20px;
+
+}
+
+#email{
+    width: 300px;
+   padding: 20px;
+   border-radius: 3px;
+   border-style: none;
+   background-color: black;
+   color: rgb(192, 138, 37);
+   font-family: fantasy     ;
+}
+
+#imgt{
+    margin-top: 20px;
+    height: 60px;
+    
+}
+
+#submit{
+   margin-top: 5px;
+margin-left:  72px;
+
+}
+small{
+    font-size: 11px ;
+}
+
+#title1{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 158px;
+}
+
+#parag1{
+    
+    margin-left: 70px;
+}
+
+#parag2{
+margin-left: 60px;
+
+}
+
+#subm1{
+    width: 300px;
+    padding: 20px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: rgb(192, 138, 37);;
+    color: black;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+  
