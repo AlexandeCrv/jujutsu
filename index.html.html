@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="landingp.css">
     <link rel="stylesheet" href="landingp.js">
-    <link rel="stylesheet" href="/style/fontes/SedgwickAveDisplay-Regular.ttf">
 </head>
 
 <header>
@@ -37,11 +36,12 @@
 
 <body>
     <div id="main" >
-        <div  >
-            <img onmouseenter="entrar()"  id="jujutsu1" src="/projetos postados/jujutsu/jujutsu1.png" alt="jujutsu1">  
-            <img id="jujutsu2" src="/projetos postados/jujutsu/jujutsu2.jfif" alt="jujutsu1">
-            <img id="jujutsu3" src="/projetos postados/jujutsu/jujutsu3.png" alt="jujutsu1">
-            <img id="jujutsu4" src="/projetos postados/jujutsu/jujutsu4.png" alt="jujutsu1">
+        <div >
+            <div id="s1"></div>
+            <img id="jujutsu1" onclick="entrar1()"  onmouseout="sai1()"  src="/projetos postados/jujutsu/jujutsu1.png" alt="jujutsu1">
+            <img id="jujutsu2" onclick="entrar2()"  onmouseout="sai2()" src="/projetos postados/jujutsu/jujutsu2.jfif" alt="jujutsu1">
+            <img id="jujutsu3" onclick="entrar3()"  onmouseout="sai3()"  src="/projetos postados/jujutsu/jujutsu3.png" alt="jujutsu1">
+            <img id="jujutsu4" onclick="entrar4()"  onmouseout="sai4()"  src="/projetos postados/jujutsu/jujutsu4.png" alt="jujutsu1">
             
         </div>
         <div id="title" >
@@ -66,23 +66,23 @@
 
                            <!--IMAGENS-->
         </div>
-        <div id="juju56" >
-            <img id="jujutsu5" src="/projetos postados/jujutsu/jujutsu5.png" alt="jujutsu1">
-            <img id="jujutsu6" src="/projetos postados/jujutsu/jujutsu6.png" alt="jujutsu1">
+        <div id="juju56" > <div id="s2" ></div>
+            <img id="jujutsu5" onclick="entrar5()"  onmouseout="sai5()" src="/projetos postados/jujutsu/jujutsu5.png" alt="jujutsu1">
+            <img id="jujutsu6" onclick="entrar6()"  onmouseout="sai6()" src="/projetos postados/jujutsu/jujutsu6.png" alt="jujutsu1">
         </div>
         
         
 
-            <div id="juju78" >
-                <img id="jujutsu7" src="/projetos postados/jujutsu/jujutsu 7.png" alt="jujutsu7">
-                <img id="jujutsu8" src="/projetos postados/jujutsu/jujutsu8.png" alt="jujutsu8">
+            <div id="juju78"> <div id="s3"></div> 
+                <img id="jujutsu7" onclick="entrar7()" onmouseout="sai7()" src="/projetos postados/jujutsu/jujutsu 7.png" alt="jujutsu7">
+                <img id="jujutsu8" onclick="entrar8()"  onmouseout="sai8()" src="/projetos postados/jujutsu/jujutsu8.png" alt="jujutsu8">
             </div>
-            
-            <div id="juju910" >
-                <img id="jujutsu9" src="/projetos postados/jujutsu/jujutsu9.png" alt="jujutsu9">
-                <img id="jujutsu10" src="/projetos postados/jujutsu/jujutsu10.png" alt="jujutsu10">
-                <img id="jujutsu11" src="/projetos postados/jujutsu/jujutsu11.png" alt="jujutsu11">
-                <img id="jujutsu12" src="/projetos postados/jujutsu/jujutsu12.png" alt="jujutsu12">
+            <div id="s4" ></div>
+            <div id="juju910">  
+                <img id="jujutsu9"  onclick="entrar9()"  onmouseout="sai9()" src="/projetos postados/jujutsu/jujutsu9.png" alt="jujutsu9">
+                <img id="jujutsu10" onclick="entrar10()"  onmouseout="sai10()" src="/projetos postados/jujutsu/jujutsu10.png" alt="jujutsu10">
+                <img id="jujutsu11" onclick="entrar11()"  onmouseout="sai11()" src="/projetos postados/jujutsu/jujutsu11.png" alt="jujutsu11">
+                <img id="jujutsu12" onclick="entrar12()"  onmouseout="sai12()" src="/projetos postados/jujutsu/jujutsu12.png" alt="jujutsu12">
             </div>
 
             
@@ -93,6 +93,6 @@
         <input type="text" id="inputf">
         <h5>&COPY;FEITO POR MIM</h5> 
     </footer>
-    
+    <script src="landingp.js"></script>
 </body>
 </html>
