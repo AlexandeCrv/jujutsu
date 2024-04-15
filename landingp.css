@@ -333,4 +333,13 @@ margin-left: 60px;
     font-size: 20px;
     cursor: pointer;
 }
-  
+
+#s1{
+    position: absolute;
+    margin-top: 10px;
+    font-family: fantasy;
+}
+
+#s22{
+    position: absolute;
+}
